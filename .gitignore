@@ -44,3 +44,15 @@ outputs/
 
 # SQLite database
 beatflow.db
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# Tooling / personal
+.claude/
+.obsidian/
+.graphify_analysis.json
+graphify-out/
+STRONA/

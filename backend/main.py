@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend.db.session import create_tables
-from backend.api.routes import upload, jobs, export
+from backend.api.routes import upload, jobs, export, presets
 
 
 @asynccontextmanager
@@ -30,6 +30,7 @@ app.add_middleware(
 app.include_router(upload.router)
 app.include_router(jobs.router)
 app.include_router(export.router)
+app.include_router(presets.router)
 
 
 @app.get("/health")
