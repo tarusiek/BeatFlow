@@ -41,3 +41,6 @@ outputs/
 *.wav
 *.mp3
 *.flac
+
+# SQLite database
+beatflow.db
