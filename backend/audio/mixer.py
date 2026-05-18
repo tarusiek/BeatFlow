@@ -33,5 +33,5 @@ def balance_and_sum(beat: np.ndarray, vocal: np.ndarray,
     mix        = (beat_pad + vocal_pad).astype(np.float32)
 
     if return_stems:
-        return beat_norm, vocal_norm, mix
+        return beat_pad, vocal_pad, mix
     return mix
