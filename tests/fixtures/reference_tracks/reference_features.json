@@ -1,0 +1,82 @@
+{
+  "tracks": {
+    "track_01": {
+      "lufs": -12.968892460916917,
+      "noise_floor_db": -31.42819502325696,
+      "dynamic_range_db": 18.7700489731125,
+      "sibilance_ratio": 0.6096912804180709,
+      "spectral_centroid": 3980.830198656043,
+      "zcr_mean": 0.10421932241326777
+    },
+    "track_02": {
+      "lufs": -17.01162402279456,
+      "noise_floor_db": -74.45930912065543,
+      "dynamic_range_db": 57.3292297171706,
+      "sibilance_ratio": 0.4617726039999576,
+      "spectral_centroid": 4219.581615819828,
+      "zcr_mean": 0.0941024377630232
+    },
+    "track_03": {
+      "lufs": -19.793949360079267,
+      "noise_floor_db": -49.05582075893294,
+      "dynamic_range_db": 29.708966190921803,
+      "sibilance_ratio": 0.39711622883799697,
+      "spectral_centroid": 3010.484046675927,
+      "zcr_mean": 0.0768264859740497
+    },
+    "track_04": {
+      "lufs": -15.364692246275103,
+      "noise_floor_db": -40.079501935214296,
+      "dynamic_range_db": 24.919369914375444,
+      "sibilance_ratio": 0.6319651980807155,
+      "spectral_centroid": 3219.5637055718103,
+      "zcr_mean": 0.08326727425590374
+    },
+    "track_05": {
+      "lufs": -13.031172604540894,
+      "noise_floor_db": -33.25659104995292,
+      "dynamic_range_db": 21.1596876205201,
+      "sibilance_ratio": 0.5628982980007956,
+      "spectral_centroid": 3706.892576226611,
+      "zcr_mean": 0.10716808772869987
+    }
+  },
+  "stats": {
+    "lufs": {
+      "min": -19.7939,
+      "max": -12.9689,
+      "mean": -15.6341,
+      "median": -15.3647
+    },
+    "noise_floor_db": {
+      "min": -74.4593,
+      "max": -31.4282,
+      "mean": -45.6559,
+      "median": -40.0795
+    },
+    "dynamic_range_db": {
+      "min": 18.77,
+      "max": 57.3292,
+      "mean": 30.3775,
+      "median": 24.9194
+    },
+    "sibilance_ratio": {
+      "min": 0.3971,
+      "max": 0.632,
+      "mean": 0.5327,
+      "median": 0.5629
+    },
+    "spectral_centroid": {
+      "min": 3010.484,
+      "max": 4219.5816,
+      "mean": 3627.4704,
+      "median": 3706.8926
+    },
+    "zcr_mean": {
+      "min": 0.0768,
+      "max": 0.1072,
+      "mean": 0.0931,
+      "median": 0.0941
+    }
+  }
+}

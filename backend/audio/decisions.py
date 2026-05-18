@@ -32,16 +32,17 @@ def decide_params(features: dict) -> dict:
         p['comp_attack_ms']  = 18.0
         p['comp_release_ms'] = 160.0
 
-    # High transient density → faster attack
-    if features['zcr_mean'] > 0.15:
+    # High transient density → faster attack (rap/hip-hop vocals typically 0.10–0.11)
+    if features['zcr_mean'] > 0.10:
         p['comp_attack_ms'] = max(4.0, p['comp_attack_ms'] - 6.0)
 
     # ── Presence EQ ─────────────────────────────────────────────────────────
+    # Thresholds calibrated from reference vocal centroids (3011–4220 Hz range)
     centroid = features['spectral_centroid']
-    if centroid < 2000.0:
+    if centroid < 3000.0:
         p['presence_freq'] = 3500.0
         p['presence_gain'] = 3.0
-    elif centroid < 3000.0:
+    elif centroid < 4000.0:
         p['presence_freq'] = 4000.0
         p['presence_gain'] = 2.0
     else:
