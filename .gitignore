@@ -31,3 +31,12 @@ Thumbs.db
 # Configs with secrets
 *.env
 .env
+
+# Upload and output directories
+uploads/
+outputs/
+
+# Audio files
+*.wav
+*.mp3
+*.flac

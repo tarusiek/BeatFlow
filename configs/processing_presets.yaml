@@ -1,0 +1,32 @@
+# Named presets for genre-aware processing (Stage 6)
+# Values override the decision engine defaults for the specified genre
+
+hip_hop:
+  beat_target_lufs: -15.0
+  vocal_target_lufs: -19.0
+  mix_target_lufs: -14.0
+  comp_ratio_override: 4.0
+  presence_freq: 3500.0
+  presence_gain: 3.0
+  reverb_room_size: 0.3
+  reverb_wet: 0.15
+
+rnb:
+  beat_target_lufs: -16.0
+  vocal_target_lufs: -20.0
+  mix_target_lufs: -14.0
+  comp_ratio_override: null     # use decision engine
+  presence_freq: 4500.0
+  presence_gain: 2.0
+  reverb_room_size: 0.5
+  reverb_wet: 0.25
+
+pop:
+  beat_target_lufs: -16.0
+  vocal_target_lufs: -20.0
+  mix_target_lufs: -13.0
+  comp_ratio_override: null
+  presence_freq: 5000.0
+  presence_gain: 1.5
+  reverb_room_size: 0.4
+  reverb_wet: 0.2
